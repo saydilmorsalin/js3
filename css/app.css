@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#selectable .ui-selecting { background: #FECA40; }
+#selectable .ui-selected { background: #F39814; color: white; }
+#selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+#selectable li {  padding: 5px; font-size: 1.4em;  }
+
+#sortable { list-style-type: none; margin: 20px 0; padding: 0; width: 60%; background-color: cadetblue;}
+#sortable li { padding: 5px; ; font-size: 1.4em;}
+#sortable li span { position: absolute; margin-left: -1.3em; }
+.ui-menu { width: 150px; }
